@@ -28,7 +28,7 @@ You're reading it! Below I describe how I addressed each rubric point and where 
 
 #### 1. Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
 I ran both scripts and Verified them work. 
-![Top Down View](./misc/capture_backyard_sol.PNG.png)
+![Top Down View](./misc/capture_backyard_sol.PNG)
 ![Starter Code](./misc/capture_starter_code.PNG)
 
 
