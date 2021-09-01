@@ -30,11 +30,11 @@ You're reading it! Below I describe how I addressed each rubric point and where 
 both scripts works well. (attached fig below)
 Compare to 'backyard_sol', motion_planing.py' has a new state 'PLANNING'
 In 'motion_planning.py' a function 'plan_path()' do following 
- - 
+  
 
-- Backyard Sol -
+ 1) Backyard Sol
 ![Bacyard_Sol](./misc/capture_backyard_sol.PNG) 
- - motion planing starter code -
+ 2) motion planing starter code
 ![motion_planing_Starter Code](./misc/capture_starter_code.PNG)
 
 
