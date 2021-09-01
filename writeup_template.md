@@ -72,8 +72,6 @@ I used a collinearity test method which did in prev exercise [line 159-181 (plan
 It works!
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
-  
-# Extra Challenges: Real World Planning
-X
+
 
 
