@@ -45,12 +45,8 @@ A function 'plan_path()' do following :
 ### Implementing Your Path Planning Algorithm
 
 #### 1. Set your global home position
-Here students should read the first line of the csv file, extract lat0 and lon0 as floating point values and use the self.set_home_position() method to set global home. Explain briefly how you accomplished this in your code.
-I read lat0, lon0 from the fist line of csv [line 126] motion_planning.py#L126 and 
 
-
-And here is a lovely picture of our downtown San Francisco environment from above!
-![Map of SF](./misc/map.png)
+I read lat0, lon0 from the fist line of csv [line 126-130](motion_planning.py#L126) and set home position to lat0, lon0 using set_home_position() method [line 132](motion_planning.py#L132)
 
 #### 2. Set your current local position
 Here as long as you successfully determine your local position relative to global home you'll be all set. Explain briefly how you accomplished this in your code.
