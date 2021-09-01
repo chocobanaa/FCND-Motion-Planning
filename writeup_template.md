@@ -29,7 +29,7 @@ You're reading it! Below I describe how I addressed each rubric point and where 
 #### 1. Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
 both scripts works well. (attached fig below)  
 Compare to bacyard sol, 'motion_planing.py' has a new state 'PLANNING'  
-A function 'plan_path()' do following  
+A function 'plan_path()' do following :
  - Read lat0, lon0 and set home position
  - Read obstacle map and define a grid (func 'create_grid' provided in 'planning util.py')
  - Set goal position
