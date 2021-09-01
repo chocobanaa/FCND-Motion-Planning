@@ -71,7 +71,7 @@ I used a collinearity test method which did in prev exercise [line 159-181 (plan
 #### 1. Does it work?
 It works!
 
-![Bacyard_Sol](./misc/capture_excute_flight_2.PNG.PNG) 
+![Bacyard_Sol](./misc/capture_excute_flight_2.PNG) 
 
 
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
