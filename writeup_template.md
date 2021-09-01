@@ -47,16 +47,18 @@ A function 'plan_path()' do following :
 #### 1. Set your global home position
 
 I read lat0, lon0 from the fist line of csv [line 126-130 (motion_planning.py)](motion_planning.py#L126)  
-Set home position to (lat0, lon0, 0) using set_home_position() method [line 132 (motion_planning.py)](motion_planning.py#L132)
+and set home position to (lat0, lon0, 0) using set_home_position() [line 132 (motion_planning.py)](motion_planning.py#L132)
 
 #### 2. Set your current local position
-I converted global pos to local using func global_to_local with inputs 'global_position', 'global_home'. [line 139 (motion_planning.py)](motion_planning.py#L139)
+I converted global position to local position using func 'global_to_local' with inputs 'global_position', 'global_home'. [line 139 (motion_planning.py)](motion_planning.py#L139)
 
 #### 3. Set grid start position from local position
-This is another step in adding flexibility to the start location. As long as it works you're good to go!
+changed that to current local position [line 151 (motion_planning.py)](motion_planning.py#L151)
 
 #### 4. Set grid goal position from geodetic coords
-This step is to add flexibility to the desired goal location. Should be able to choose any (lat, lon) within the map and have it rendered to a goal location on the grid.
+I added 2 input arguments '--goal_latitude', 'goal_longitude' [line 194-195 (motion_planning.py)](motion_planning.py#L194)
+and set goal as latitude , longitude position and converted [line 157-158 (motion_planning.py)](motion_planning.py#L158)
+
 
 #### 5. Modify A* to include diagonal motion (or replace A* altogether)
 Minimal requirement here is to modify the code in planning_utils() to update the A* implementation to include diagonal motions on the grid that have a cost of sqrt(2), but more creative solutions are welcome. Explain the code you used to accomplish this step.
