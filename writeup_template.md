@@ -39,14 +39,14 @@ A function 'plan_path()' do following :
  1) Backyard Sol  
 ![Bacyard_Sol](./misc/capture_backyard_sol.PNG) 
  2) motion planing starter code  
-![motion_planing_Starter Code](./misc/capture_starter_code.PNG)
+![motion_planing_Starter Code](./misc/capture_starter_code.PNG)  
 
 
 ### Implementing Your Path Planning Algorithm
 
 #### 1. Set your global home position
 Here students should read the first line of the csv file, extract lat0 and lon0 as floating point values and use the self.set_home_position() method to set global home. Explain briefly how you accomplished this in your code.
-
+https://github.com/chocobanaa/FCND-Motion-Planning/blob/7b663aa7aec76437420a92c8a6f533186d3b5550/motion_planning.py#L126
 
 And here is a lovely picture of our downtown San Francisco environment from above!
 ![Map of SF](./misc/map.png)
