@@ -31,7 +31,7 @@ both scripts works well. (attached fig below)
 Compare to bacyard sol, 'motion_planing.py' has a new state 'PLANNING'  
 A function 'plan_path()' do following :
  - Read lat0, lon0 and set home position
- - Read obstacle map and define a grid (func 'create_grid' provided in 'planning util.py')
+ - Read obstacle map and define a grid (func 'create_grid' is used in 'planning util.py')
  - Set goal position
  - find a path (Run a * algo in 'planning util.py')
  - Prune path 
@@ -50,7 +50,7 @@ I read lat0, lon0 from the fist line of csv [line 126-130 (motion_planning.py)](
 Set home position to (lat0, lon0, 0) using set_home_position() method [line 132 (motion_planning.py)](motion_planning.py#L132)
 
 #### 2. Set your current local position
-The function self.global_to_local' is used to convert global position to local position with inputs arguments 'global_position', 'global_home'  [line 139 (motion_planning.py)](motion_planning.py#139)
+I used the func 'global_to_local' to convert global position to local position with arguments 'global_position', 'global_home'  [line 139 (motion_planning.py)](motion_planning.py#139)
 
 #### 3. Set grid start position from local position
 This is another step in adding flexibility to the start location. As long as it works you're good to go!
