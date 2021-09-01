@@ -56,16 +56,15 @@ I converted global position to local position using func 'global_to_local' with 
 changed that to current local position [line 151 (motion_planning.py)](motion_planning.py#L151)
 
 #### 4. Set grid goal position from geodetic coords
-I added 2 input arguments '--goal_latitude', 'goal_longitude' [line 194-195 (motion_planning.py)](motion_planning.py#L194)
+I added 2 input arguments '--goal_latitude', 'goal_longitude' [line 194-195 (motion_planning.py)](motion_planning.py#L194)  
 and set goal as latitude , longitude position and converted [line 157-158 (motion_planning.py)](motion_planning.py#L158)
 
 
 #### 5. Modify A* to include diagonal motion (or replace A* altogether)
-Minimal requirement here is to modify the code in planning_utils() to update the A* implementation to include diagonal motions on the grid that have a cost of sqrt(2), but more creative solutions are welcome. Explain the code you used to accomplish this step.
+Added diagonal actions [line 58-61 (planning_utils.py)](planning_utils.py#58) and valid actions [line 91-97 (planning_utils.py)](planning_utils.py#91)
 
 #### 6. Cull waypoints 
-For this step you can use a collinearity test or ray tracing method like Bresenham. The idea is simply to prune your path of unnecessary waypoints. Explain the code you used to accomplish this step.
-
+I used a collinearity test method which did in prev exercise [line 159-181 (planning_utils.py)](planning_utils.py#91)
 
 
 ### Execute the flight
@@ -75,7 +74,6 @@ It works!
 ### Double check that you've met specifications for each of the [rubric](https://review.udacity.com/#!/rubrics/1534/view) points.
   
 # Extra Challenges: Real World Planning
-
-For an extra challenge, consider implementing some of the techniques described in the "Real World Planning" lesson. You could try implementing a vehicle model to take dynamic constraints into account, or implement a replanning method to invoke if you get off course or encounter unexpected obstacles.
+X
 
 
