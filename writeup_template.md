@@ -27,11 +27,10 @@ You're reading it! Below I describe how I addressed each rubric point and where 
 ### Explain the Starter Code
 
 #### 1. Explain the functionality of what's provided in `motion_planning.py` and `planning_utils.py`
-both scripts works well. (attached fig below)
-Compare to 'backyard_sol', motion_planing.py' has a new state 'PLANNING'
-In 'motion_planning.py' a function 'plan_path()' do following 
+both scripts works well. (attached fig below).
+'motion_planing.py' has a new state 'PLANNING'
+A function 'plan_path()' do following 
   
-
  1) Backyard Sol
 ![Bacyard_Sol](./misc/capture_backyard_sol.PNG) 
  2) motion planing starter code
