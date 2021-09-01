@@ -46,11 +46,12 @@ A function 'plan_path()' do following :
 
 #### 1. Set your global home position
 
-I read lat0, lon0 from the fist line of csv [line 126-130](motion_planning.py#L126) and set home position to lat0, lon0 using set_home_position() method [line 132](motion_planning.py#L132)
+I read lat0, lon0 from the fist line of csv [line 126-130 (motion_planning.py)](motion_planning.py#L126) and set home position to (lat0, lon0, 0) using set_home_position() method [line 132 (motion_planning.py)](motion_planning.py#L132)
 
 #### 2. Set your current local position
 Here as long as you successfully determine your local position relative to global home you'll be all set. Explain briefly how you accomplished this in your code.
-
+I get local position using function 
+I did it at [line 139 (motion_planning.py)](motion_planning.py#139)
 
 Meanwhile, here's a picture of me flying through the trees!
 ![Forest Flying](./misc/in_the_trees.png)
