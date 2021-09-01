@@ -50,7 +50,7 @@ I read lat0, lon0 from the fist line of csv [line 126-130 (motion_planning.py)](
 Set home position to (lat0, lon0, 0) using set_home_position() method [line 132 (motion_planning.py)](motion_planning.py#L132)
 
 #### 2. Set your current local position
-I used the func 'global_to_local' to convert global position to local position with arguments 'global_position', 'global_home' [line 139 (motion_planning.py)](motion_planning.py#139)
+I converted global pos to local using func global_to_local with inputs 'global_position', 'global_home' [line 139 (motion_planning.py)](motion_planning.py#139)
 
 #### 3. Set grid start position from local position
 This is another step in adding flexibility to the start location. As long as it works you're good to go!
