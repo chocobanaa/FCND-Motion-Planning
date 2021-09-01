@@ -46,7 +46,8 @@ A function 'plan_path()' do following :
 
 #### 1. Set your global home position
 Here students should read the first line of the csv file, extract lat0 and lon0 as floating point values and use the self.set_home_position() method to set global home. Explain briefly how you accomplished this in your code.
-https://github.com/chocobanaa/FCND-Motion-Planning/blob/7b663aa7aec76437420a92c8a6f533186d3b5550/motion_planning.py#L126
+I read lat0, lon0 from the fist line of csv [line 126] motion_planning.py#L126 and 
+
 
 And here is a lovely picture of our downtown San Francisco environment from above!
 ![Map of SF](./misc/map.png)
